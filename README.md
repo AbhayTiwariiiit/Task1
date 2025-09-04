@@ -103,28 +103,6 @@ Recon 3×3 Conv → Residual image + Input → Final derained image
 
 ---
 
-# Repository Structure
-
-```
-├── decent.ipynb          # Jupyter notebook (implementation & experiments)
-├── Report (2).pdf        # In-depth analysis & experimental results (uploaded)
-├── README.md             # This file (raw markdown)
-├── requirements.txt      # Python dependencies (PyTorch, etc.)
-├── configs/              # Experiment config files (yaml/json)
-├── datasets/             # dataset helper scripts / download helpers
-├── models/
-│   ├── dectnet.py        # DECTNet model (ERFDB, DASTB, MS-ERFDB)
-│   ├── modules.py        # building blocks (attention, FFN, Fuse block)
-│   └── loss.py           # negative SSIM and metric helpers
-├── train.py              # training entrypoint
-├── test.py               # inference and evaluation scripts
-└── utils/
-    ├── metrics.py
-    └── transforms.py
-```
-
----
-
 # Getting Started
 
 ## Requirements
